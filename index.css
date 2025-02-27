@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #0D0D0D;
+    margin-left: 50px;
+}
+
+#grid {
+     border-left: 3px solid #0D0D0D;
+     margin-top:50px;
+}
+
+.h1-wrapper, .h2-wrapper, .btn-wrapper, .pw-wrapper {
+     border-bottom: 3px solid #0D0D0D;
+     padding-bottom:20px;
+     margin-bottom:50px;
+}
+
+.h1-wrapper {
+    width: 600px;
+}
+
+.h2-wrapper {
+    width: 500px;
+}
+
+.btn-wrapper {
+    width: 400px;
+}
+
+.pw-wrapper {
+    width: 300px;
+   
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+    padding-left:20px;
+    margin:0;
+    }
+
+span {
+    color: #4E4BBF;
+
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left:20px;
+    margin:0;
+}
+
+
+button, p {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.generate-btn {
+    display:block;
+    height: 60px;
+    width: 300px;
+    font-size: 24px;
+    font-weight:400;
+    padding: 16px 40px;
+    background: #0D0D0D;
+    border: none;
+    color: white;
+ }
+ 
+ .generate-btn:hover {
+    border:none;
+    background: #4E4BBF;
+    scale:1.05;
+    transition: ease-in;
+    box-shadow: 5px 5px #0D0D0D;
+ }
+
+.password-btn-one, .password-btn-two {
+    height: 40px;
+    width: 260px;
+    text-align:center;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight:400;
+    padding: auto 24px;
+    background:white;
+    border: 3px solid #4E4BBF;
+    color: #4E4BBF;
+}
+
+.password-btn-one:hover, .password-btn-two:hover {
+    box-shadow: 5px 5px #0D0D0D;
+ }
+ 
+label {
+    height: 40px;
+    width: 240px;
+    text-align:center;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight:400;
+    padding: 10px 24px;
+    background:white;
+    border: solid 3px #4E4BBF;
+    color: #4E4BBF;
+    margin-left:20px;
+    margin-bottom:20px;
+ }
+ 
+ input {
+     height: 37.5px;
+     width:50px;
+     text-align: center;
+     border: solid 3px #4E4BBF;
+     color: #4E4BBF;
+     margin-bottom: 20px;
+     font-weight:600;
+      }
+ 
+ input:hover {
+    box-shadow: 5px 5px #0D0D0D;
+ }
+ 
+ 
+ 

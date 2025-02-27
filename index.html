@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="grid">
+            <div class="h1-wrapper">
+                <h1>Generate a <br><span>random password</span></h1>
+            </div>
+            <div class="h2-wrapper">
+                <h2>never use an<br>insecure one again.</h2>
+            </div>
+            <div class="btn-wrapper">
+                <div class="label-wrapper">
+                    <label for="char-number">choose your length</label>
+                    <input type="number" id="char-number" name="char-number" min="10" max="25">
+                </div>
+                <button class="generate-btn" onclick="getPassword()">generate password</button>
+                
+            </div>
+            <div class="pw-wrapper">
+                <p class="password-btn-one" id="text" onclick="copyElementText(this.id)"></p>
+                <p class="password-btn-two" id="text-two" onclick="copyElementText(this.id)"><p>
+            </div>
+            
+    <script src="index.js"></script>
+    </body>
+</html>

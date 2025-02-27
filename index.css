@@ -10,7 +10,7 @@ body {
      border-left: 3px solid #0D0D0D;
      margin-top:50px;
     box-size: border-box;
-    height:100vh;
+    height:90vh;
 }
 
 .h1-wrapper, .h2-wrapper, .btn-wrapper, .pw-wrapper {
